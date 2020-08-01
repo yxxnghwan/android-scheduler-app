@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:gravity="center_vertical"
+    android:layout_marginTop="3dp"
+    android:orientation="horizontal"
+    android:background="#535353"
+    android:elevation="0.3dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RecyclerViewTitle"
+            android:text="Title"
+            android:textSize="25dp"
+            android:textColor="#00c0c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RecyclerViewTime"
+            android:text="Time"
+            android:textSize="13dp"
+            android:textColor="#00c0c0"
+            />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/editButton"
+        android:src="@drawable/edit_btn"
+        android:layout_gravity="right"
+        android:scaleType="fitEnd"
+        android:background="#404040"
+        android:elevation="3dp"
+        />
+
+
+
+</LinearLayout>
